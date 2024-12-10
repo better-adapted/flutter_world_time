@@ -9,7 +9,7 @@ void main()
   print(LoggerStackTrace.from(StackTrace.current).toString());
 
   runApp(MaterialApp(
-    initialRoute: '/home',
+    initialRoute: '/',
     routes: {
       '/': (context) => Loading(),
       '/home': (context) => Home(),

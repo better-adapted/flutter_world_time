@@ -13,13 +13,6 @@ class _ChooseLocationState extends State<ChooseLocation> {
   int counter=0;
 
   @override
-  void initState() {
-    super.initState();
-    //print(LoggerStackTrace.from(StackTrace.current).toString());
-    print('init func ran');
-  }
-
-  @override
   Widget build(BuildContext context) {
     print('build func ran');
     return Scaffold(
